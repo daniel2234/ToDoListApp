@@ -14,6 +14,9 @@
 		659C3C161B1A11A500066026 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659C3C151B1A11A500066026 /* Images.xcassets */; };
 		659C3C191B1A11A500066026 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659C3C171B1A11A500066026 /* LaunchScreen.xib */; };
 		659C3C251B1A11A500066026 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C3C241B1A11A500066026 /* ToDoListTests.m */; };
+		659C3C301B1A274600066026 /* AddToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C3C2F1B1A274600066026 /* AddToDoViewController.m */; };
+		659C3C361B1A297400066026 /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C3C351B1A297400066026 /* ToDoListTableViewController.m */; };
+		659C3C391B1A328400066026 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C3C381B1A328400066026 /* ToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		659C3C1E1B1A11A500066026 /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		659C3C231B1A11A500066026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		659C3C241B1A11A500066026 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		659C3C2E1B1A274600066026 /* AddToDoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoViewController.h; sourceTree = "<group>"; };
+		659C3C2F1B1A274600066026 /* AddToDoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoViewController.m; sourceTree = "<group>"; };
+		659C3C341B1A297400066026 /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = SOURCE_ROOT; };
+		659C3C351B1A297400066026 /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = SOURCE_ROOT; };
+		659C3C371B1A328400066026 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		659C3C381B1A328400066026 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +90,17 @@
 		659C3C071B1A11A500066026 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				659C3C341B1A297400066026 /* ToDoListTableViewController.h */,
+				659C3C351B1A297400066026 /* ToDoListTableViewController.m */,
 				659C3C0C1B1A11A500066026 /* AppDelegate.h */,
 				659C3C0D1B1A11A500066026 /* AppDelegate.m */,
+				659C3C2E1B1A274600066026 /* AddToDoViewController.h */,
+				659C3C2F1B1A274600066026 /* AddToDoViewController.m */,
 				659C3C0F1B1A11A500066026 /* ViewController.h */,
 				659C3C101B1A11A500066026 /* ViewController.m */,
 				659C3C121B1A11A500066026 /* Main.storyboard */,
+				659C3C371B1A328400066026 /* ToDoItem.h */,
+				659C3C381B1A328400066026 /* ToDoItem.m */,
 				659C3C151B1A11A500066026 /* Images.xcassets */,
 				659C3C171B1A11A500066026 /* LaunchScreen.xib */,
 				659C3C081B1A11A500066026 /* Supporting Files */,
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659C3C391B1A328400066026 /* ToDoItem.m in Sources */,
+				659C3C301B1A274600066026 /* AddToDoViewController.m in Sources */,
 				659C3C111B1A11A500066026 /* ViewController.m in Sources */,
 				659C3C0E1B1A11A500066026 /* AppDelegate.m in Sources */,
+				659C3C361B1A297400066026 /* ToDoListTableViewController.m in Sources */,
 				659C3C0B1B1A11A500066026 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
